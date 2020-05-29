@@ -17,9 +17,14 @@ namespace TennisDB
         {
             if (!optionsBuilder.IsConfigured)
             {
-                var connectionString = "data source=(LocalDB)\\mssqllocaldb;attachdbfilename=C:\\Temp\\NorthwindWebAPIDb\\Tennis.mdf;integrated security=True";
+                var connectionString = "data source=(LocalDB)\\mssqllocaldb;attachdbfilename=C:\\Temp\\Tennis.mdf;database=Tennis;integrated security=True";
                 optionsBuilder.UseSqlServer(connectionString);
             }
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Seed();
         }
 
     }

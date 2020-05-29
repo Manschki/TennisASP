@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using TennisDB;
 
 namespace TennisDB.Migrations
 {
     [DbContext(typeof(TennisContext))]
-    partial class TennisContextModelSnapshot : ModelSnapshot
+    [Migration("20200529085508_UpdatedConString")]
+    partial class UpdatedConString
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -42,40 +44,6 @@ namespace TennisDB.Migrations
                     b.HasIndex("PersonId");
 
                     b.ToTable("Bookings");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            DayOfWeek = 1,
-                            Hour = 12,
-                            PersonId = 1,
-                            Week = 22
-                        },
-                        new
-                        {
-                            Id = 2,
-                            DayOfWeek = 4,
-                            Hour = 12,
-                            PersonId = 3,
-                            Week = 22
-                        },
-                        new
-                        {
-                            Id = 3,
-                            DayOfWeek = 2,
-                            Hour = 14,
-                            PersonId = 2,
-                            Week = 22
-                        },
-                        new
-                        {
-                            Id = 4,
-                            DayOfWeek = 2,
-                            Hour = 11,
-                            PersonId = 2,
-                            Week = 22
-                        });
                 });
 
             modelBuilder.Entity("TennisDB.Person", b =>
@@ -97,29 +65,6 @@ namespace TennisDB.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Persons");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Age = 66,
-                            Firstname = "Hansi",
-                            Lastname = "Huber"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Age = 23,
-                            Firstname = "Fritzi",
-                            Lastname = "Müller"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Age = 31,
-                            Firstname = "Susi",
-                            Lastname = "Berger"
-                        });
                 });
 
             modelBuilder.Entity("TennisDB.Booking", b =>
