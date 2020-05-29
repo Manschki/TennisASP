@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vFlJcGgLPyG4j+F71toxXHs8SQxK/cPllu9vSVBdKMf2tH0yQjcA3FBhuTjyoeR2gmab+WQWygNvxepMo1Nhmw==",
+  "dgSpecHash": "HFH7IceuaZydmeF4fjtnBoO0JLhUNCqnRtp/74COZLictTSfujZDoWfNbs2VOC2EsyHBJ5A6xW+Uxxwj+CXKbA==",
   "success": true,
-  "projectFilePath": "S:\\4Jahrgang\\POS\\WebAPI\\TennisASP\\TennisASP\\TennisASP.csproj",
+  "projectFilePath": "S:\\4Jahrgang\\POS\\WebAPI\\TennisASP\\TennisDB\\TennisDB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\seifr\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\seifr\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

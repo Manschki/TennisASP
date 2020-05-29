@@ -1,11 +1,12 @@
 S:\4Jahrgang\POS\WebAPI\TennisASP\TennisDB\bin\Debug\netcoreapp3.1\TennisDB.deps.json
-S:\4Jahrgang\POS\WebAPI\TennisASP\TennisDB\bin\Debug\netcoreapp3.1\TennisDB.dll
-S:\4Jahrgang\POS\WebAPI\TennisASP\TennisDB\obj\Debug\netcoreapp3.1\TennisDB.csprojAssemblyReference.cache
-S:\4Jahrgang\POS\WebAPI\TennisASP\TennisDB\obj\Debug\netcoreapp3.1\TennisDB.AssemblyInfoInputs.cache
-S:\4Jahrgang\POS\WebAPI\TennisASP\TennisDB\obj\Debug\netcoreapp3.1\TennisDB.AssemblyInfo.cs
 S:\4Jahrgang\POS\WebAPI\TennisASP\TennisDB\bin\Debug\netcoreapp3.1\TennisDB.runtimeconfig.json
 S:\4Jahrgang\POS\WebAPI\TennisASP\TennisDB\bin\Debug\netcoreapp3.1\TennisDB.runtimeconfig.dev.json
-S:\4Jahrgang\POS\WebAPI\TennisASP\TennisDB\obj\Debug\netcoreapp3.1\TennisDB.genruntimeconfig.cache
+S:\4Jahrgang\POS\WebAPI\TennisASP\TennisDB\bin\Debug\netcoreapp3.1\TennisDB.dll
 S:\4Jahrgang\POS\WebAPI\TennisASP\TennisDB\bin\Debug\netcoreapp3.1\TennisDB.pdb
+S:\4Jahrgang\POS\WebAPI\TennisASP\TennisDB\obj\Debug\netcoreapp3.1\TennisDB.AssemblyInfoInputs.cache
+S:\4Jahrgang\POS\WebAPI\TennisASP\TennisDB\obj\Debug\netcoreapp3.1\TennisDB.AssemblyInfo.cs
 S:\4Jahrgang\POS\WebAPI\TennisASP\TennisDB\obj\Debug\netcoreapp3.1\TennisDB.dll
 S:\4Jahrgang\POS\WebAPI\TennisASP\TennisDB\obj\Debug\netcoreapp3.1\TennisDB.pdb
+S:\4Jahrgang\POS\WebAPI\TennisASP\TennisDB\obj\Debug\netcoreapp3.1\TennisDB.genruntimeconfig.cache
+S:\4Jahrgang\POS\WebAPI\TennisASP\TennisDB\obj\Debug\netcoreapp3.1\TennisDB.csprojAssemblyReference.cache
+S:\4Jahrgang\POS\WebAPI\TennisASP\TennisDB\obj\Debug\netcoreapp3.1\TennisDB.csproj.CoreCompileInputs.cache
